@@ -15,7 +15,7 @@ Windows VPS:
 
   ```yaml
   environment:
-    VERSION: "win11"
+    VERSION: "win110
   ```
 
   Select from the values below:
@@ -53,7 +53,7 @@ Windows VPS:
 
 ### How do I change the size of the disk?
 
-  To expand the default size of 16 GB, edit the `DISK_SIZE` in your compose file and set it to your preferred capacity:
+  To expand the default size of 24 GB, edit the `DISK_SIZE` in your compose file and set it to your preferred capacity:
 
   ```yaml
   environment:
@@ -61,3 +61,8 @@ Windows VPS:
   ```
   
   This can also be used to resize the existing disk to a larger capacity without any data loss.
+
+  Ubuntu VPS: 
+  - create a github repo
+  - create a github codespace inside your repo that has the default iamge and has 16gig of ram
+  - Run this in your terminal: `sudo docker run -it ubuntu:22.04`. and if you want systemctl run `sudo apt install systemd` and this will install systemd and systemctl, make sure to reboot the ubuntu vps after installing systemd/systemctl. Also you can create mutilable ubuntu vps(s) by running the command again for another one.
