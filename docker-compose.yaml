@@ -7,7 +7,7 @@ services:
       VERSION: "2022"
       RAM_SIZE: "32G"
       CPU_CORES: "12"
-      DISK_SIZE: "16G"
+      DISK_SIZE: "24G"
     devices:
       - /dev/kvm
     cap_add:
