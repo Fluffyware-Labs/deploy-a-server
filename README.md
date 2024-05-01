@@ -4,7 +4,7 @@ Windows VPS:
 - create a github repo
 - create a github codespace inside your repo that has the default iamge and has 16gig of ram
 - git clone this repo
-- do "docker-compose up -d" in your terminal (Note this can work on other stuff, Not just github codespaces)
+- do "mkdir /var/windows/ & docker-compose up -d" in your terminal (Note this can work on other stuff, Not just github codespaces)
 
 
 
