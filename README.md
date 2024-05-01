@@ -62,6 +62,19 @@ Windows VPS:
   
   This can also be used to resize the existing disk to a larger capacity without any data loss.
 
+ ### How do I increase the amount of CPU or RAM?
+
+  By default, 2 CPU cores and 6 GB of RAM are allocated to the VPS.
+
+  To increase this, Edit the following environment variables:
+
+  ```yaml
+  environment:
+    RAM_SIZE: "6G"
+    CPU_CORES: "2"
+  ```
+
+
   Ubuntu VPS: 
   - create a github repo
   - create a github codespace inside your repo that has the default iamge and has 16gig of ram
