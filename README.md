@@ -1,6 +1,4 @@
-### Deploy-a-server
-## Deploy a server on FluffyHosting 
-
+### Deploy-a-VPS for free
 
 Windows VPS:
 - create a github repo
@@ -10,7 +8,7 @@ Windows VPS:
 
 
 
-* ### How do I select the Windows version?
+### How do I select the Windows version?
 
   By default, Windows Server 2022  will be installed. But you can add the `VERSION` environment variable to your compose file, in order to specify an alternative Windows version to be downloaded:
   Note that your problem is storage. Windows server 2022 is pertty small and useable
@@ -53,7 +51,7 @@ Windows VPS:
 
   There is a good RDP client for [Android](https://play.google.com/store/apps/details?id=com.microsoft.rdc.androidx) available from the Play Store and one for [iOS](https://apps.apple.com/nl/app/microsoft-remote-desktop/id714464092?l=en-GB) in the Apple Store. For Linux you can use [FreeRDP](https://www.freerdp.com/) and on Windows just type `mstsc` in the search box.
 
-* ### How do I change the size of the disk?
+### How do I change the size of the disk?
 
   To expand the default size of 16 GB, edit the `DISK_SIZE` in your compose file and set it to your preferred capacity:
 
